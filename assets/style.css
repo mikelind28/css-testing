@@ -1,0 +1,114 @@
+.page-wrapper {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0px;
+    margin: 0;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+div {
+    max-height: 250px;
+    max-width: 250px;
+    margin: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: caption;
+}
+
+#red {
+    background: radial-gradient(circle, rgba(255,0,0,0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-bottom: auto;
+    margin-right: auto;
+    z-index: 9;
+    box-shadow: 3vh 3vh 10vh 2vh rgba(255, 0, 0, 0.5);
+}
+
+#red-orange {
+    background: radial-gradient(circle, rgba(255, 68, 0, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 8;
+    box-shadow: 0vh 3vh 10vh 2vh rgba(255, 68, 0, 0.5);
+}
+
+#orange {
+    background: radial-gradient(circle, rgba(255, 166, 0, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-left: auto;
+    margin-bottom: auto;
+    z-index: 7;
+    box-shadow: -3vh 3vh 10vh 2vh rgba(255, 166, 0, 0.5);
+}
+
+#yellow {
+    background: radial-gradient(circle, rgba(255, 255, 0, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 6;
+    box-shadow: 3vh 0vh 10vh 2vh rgba(255, 255, 0, 0.5);
+}
+
+#yellow-green {
+    background: radial-gradient(circle, rgba(153, 205, 50,0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 0px;
+    margin: auto;
+    z-index: 5;
+    box-shadow: 0vh 0vh 10vh 2vh rgba(153, 205, 50, 0.5);
+}
+
+#green {
+    background: radial-gradient(circle, rgba(0, 128, 0, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    z-index: 4;
+    box-shadow: -3vh 0vh 10vh 2vh rgba(0, 128, 0, 0.5);
+}
+
+#blue {
+    background: radial-gradient(circle, rgba(0, 0, 255, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-right: auto;
+    margin-top: auto;
+    z-index: 3;
+    box-shadow: 3vh -3vh 10vh 2vh rgba(0, 0, 255, 0.5);
+}
+
+#blue-violet {
+    background: radial-gradient(circle, rgba(137, 43, 226, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    box-shadow: 0vh -3vh 10vh 2vh rgba(137, 43, 226, 0.5);
+}
+
+#violet {
+    background: radial-gradient(circle, rgba(238, 130, 238, 0.75) 40%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    inset: 10px;
+    margin-top: auto;
+    margin-left: auto;   
+    z-index: 1;
+    box-shadow: -3vh -3vh 10vh 2vh rgba(238, 130, 238, 0.5);
+}
+
